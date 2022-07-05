@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/tmc/reactssr"
+	"github.com/dannyrenegade/reactssr"
 )
 
 func Example_newServerSideRenderer() {

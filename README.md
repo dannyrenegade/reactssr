@@ -2,10 +2,10 @@
 
 A Go package to perform Server Side Rendering of React apps.
 
-[![Project status](https://img.shields.io/github/release/tmc/reactssr.svg?style=flat-square)](https://github.com/tmc/reactssr/releases/latest)
-[![Build Status](https://github.com/tmc/reactssr/workflows/test/badge.svg)](https://github.com/tmc/reactssr/actions?query=workflow%3Atest)
+[![Project status](https://img.shields.io/github/release/tmc/reactssr.svg?style=flat-square)](https://github.com/dannyrenegade/reactssr/releases/latest)
+[![Build Status](https://github.com/dannyrenegade/reactssr/workflows/test/badge.svg)](https://github.com/dannyrenegade/reactssr/actions?query=workflow%3Atest)
 [![Go Report Card](https://goreportcard.com/badge/tmc/reactssr?cache=0)](https://goreportcard.com/report/tmc/reactssr)
-[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/tmc/reactssr)
+[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/dannyrenegade/reactssr)
 
 ## Example usage
 
@@ -75,13 +75,13 @@ the rendered HTML and CSS between runtimes.
 
 This package includes benchmarks which are run in CI: [reactssr_test.go](./reactssr_test.go).
 
-[Recent performance results](https://github.com/tmc/reactssr/runs/1828170002?check_suite_focus=true)
+[Recent performance results](https://github.com/dannyrenegade/reactssr/runs/1828170002?check_suite_focus=true)
 
 ```sh
 go test -v -run=XXX -benchmem -bench=.*
 goos: linux
 goarch: amd64
-pkg: github.com/tmc/reactssr
+pkg: github.com/dannyrenegade/reactssr
 BenchmarkRender
 BenchmarkRender-2    	     464	   5855720 ns/op	    3459 B/op	      19 allocs/op
 PASS

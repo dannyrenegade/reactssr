@@ -1,4 +1,4 @@
-module github.com/tmc/reactssr
+module github.com/dannyrenegade/reactssr
 
 go 1.15
 
